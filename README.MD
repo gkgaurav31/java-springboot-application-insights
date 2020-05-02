@@ -9,4 +9,10 @@ The Controller also has an endpoint /mysql which taken a query param "count" and
 To run the application, you would need to set the following environment variables as well: 
 
 CONNECTION_STRING=jdbc:mysql://<dbserver>.azure.com:3306/db_example?serverTimezone=UTC 
+
 DB_PASSWORD=YourPassword 
+
+In order to delete all rows, you can call /delete API. 
+
+
+

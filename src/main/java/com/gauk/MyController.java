@@ -48,6 +48,8 @@ public class MyController {
 		userRepository.save(n);
 		return "Saved";
 	}
+	
+	
 
 	@GetMapping(value = "/mysql")
 	public String StringSnatMySQLTest(@RequestParam(name = "count") int count){
@@ -55,6 +57,12 @@ public class MyController {
 			new Thread(mySQLThread).start();
 		}
 		return "Done";
+	}
+	
+	@GetMapping(value="/delete")
+	public String deleteAll() {
+		userRepository.deleteAll();
+		return "DELETED";
 	}
 	
 
