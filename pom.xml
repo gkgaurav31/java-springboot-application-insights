@@ -21,11 +21,13 @@
 
 	<dependencies>
 
+		<!-- https://mvnrepository.com/artifact/com.microsoft.azure/applicationinsights-spring-boot-starter -->
 		<dependency>
 			<groupId>com.microsoft.azure</groupId>
 			<artifactId>applicationinsights-spring-boot-starter</artifactId>
-			<version>1.1.1</version>
+			<version>2.6.1-BETA</version>
 		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
