@@ -4,7 +4,7 @@ Set the Environment variable APPLICATION_INSIGHTS_KEY with instrumentation key o
 
 /snat URI takes in two Query Parameters: uri and count. The API sends HTTP GET method to the uri "count" number of times. 
 
-The Controller also has an endpoint /mysql which taken a query param "count" and sends that number of insert queries in a User table. 
+The Controller also has an endpoint /mysql which takes a query param "count" and sends that number of insert queries to a User table. 
 
 To run the application, you would need to set the following environment variables as well: 
 
